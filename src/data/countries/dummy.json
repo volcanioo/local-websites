@@ -1,0 +1,11 @@
+{
+    "country_name": "Country Name",
+    "websites": [
+        {
+            "id": 1,
+            "name": "Website Name",
+            "url": "Website URL",
+            "category": 1 // categories.json
+        },
+    ]
+}
