@@ -23,4 +23,13 @@ npm start
 ```
 
 # How can I add another country?
-...
+1. Create a new branch from `develop`
+2. Create a JSON file in `data/countries/` directory. (You can find a dummy json in this directory, you can copy it!)
+3. Add an import in `countries.js` file.
+4. Test it locally
+5. Create a PR then you are pretty set! 🎉  
+
+# What I did until this time?
+1. [First Set-up](https://github.com/volcanioo/local-websites/pull/1)
+2. [Data Structure Updates](https://github.com/volcanioo/local-websites/pull/2)
+3. [Modal Management](https://github.com/volcanioo/local-websites/pull/4)
