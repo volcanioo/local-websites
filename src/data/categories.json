@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Food"
+    },
+    {
+        "id": 2,
+        "name": "Fashion/Shop"
+    },
+    {
+        "id": 3,
+        "name": "Buy/Sell Car"
+    },
+    {
+        "id": 4,
+        "name": "Find a Home"
+    }
+]
