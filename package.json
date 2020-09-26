@@ -1,0 +1,33 @@
+{
+  "name": "local-websites",
+  "version": "1.0.0",
+  "description": "Every country has some local websites to find an apartment, order food, sell/buy something. The local websites show that what's the local websites in your country.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volcanioo/local-websites.git"
+  },
+  "keywords": [],
+  "author": " <Mehmet Volkan Deveci>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volcanioo/local-websites/issues"
+  },
+  "homepage": "https://github.com/volcanioo/local-websites#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "css-loader": "^4.3.0",
+    "style-loader": "^1.2.1"
+  }
+}

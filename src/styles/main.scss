@@ -1,0 +1,36 @@
+:root {
+  --fontFamily: 'Roboto', sans-serif;
+  --containerWidth: 1200px;
+  --headingSize: 32px;
+  --bodySize: 18px;
+  --red: #EF476F;
+  --green: #06D6A0;
+  --blue: #26547C;
+  --yellow: #FFD166;
+  --white: #FFFCF9;
+}
+
+body {
+  margin: 0;
+  background: var(--white);
+  font-family: var(--fontFamily);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: var(--containerWidth);
+}
+
+h1 {
+  line-height: 1.5;
+  font-weight: 600;
+  font-size: var(--headingSize);
+}
+
+p {
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: var(--bodySize);
+}
