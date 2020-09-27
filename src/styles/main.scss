@@ -34,3 +34,30 @@ p {
   font-weight: 400;
   font-size: var(--bodySize);
 }
+
+.category-title {
+  font-size: var(--bodySize);
+  background: rgba(0,0,0,.1);
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0;
+  display: block;
+}
+
+.table-view {
+  display: flex;
+  flex-direction: row;
+  &__row {
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    display: flex;
+  }
+  &__column {
+    padding: 10px;
+    border-right: 1px solid #c7c7c7;
+    width: 50%;
+    &:last-child {
+      border: none;
+    }
+  }
+}
