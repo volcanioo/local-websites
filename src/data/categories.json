@@ -13,7 +13,7 @@
     },
     {
         "id": 4,
-        "name": "Find a Home"
+        "name": "Find an Apartment"
     },
     {
         "id": 5,
@@ -72,10 +72,6 @@
         "name": "Dictionary"
     },
     {
-        "id": 19,
-        "name": "Bet Websites"
-    },
-    {
         "id": 20,
         "name": "Find a Doctor"
     },
@@ -89,7 +85,7 @@
     },
     {
         "id": 23,
-        "name": "Health"
+        "name": "Health & Medicine"
     },
     {
         "id": 24,
@@ -122,5 +118,21 @@
     {
         "id": 31,
         "name": "Shipment, Cargo"
+    },
+    {
+        "id": 32,
+        "name": "Government Paper Works"
+    },
+    {
+        "id": 33,
+        "name": "Real Estate"
+    },
+    {
+        "id": 34,
+        "name": "Music & Concert, Event"
+    },
+    {
+        "id": 35,
+        "name": "Flight Ticket"
     }
 ]
