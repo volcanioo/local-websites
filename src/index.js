@@ -24,7 +24,7 @@ for (const key in categories) {
             const column = document.createElement('div');
             column.classList.add('table-view__column');
             for (let j = 0; j < Object.keys(websites[i]).length; j++) {
-                column.innerHTML += `<a href="` + websites[i][j].url + `" rel="nofollow" target="_blank">` + websites[i][j].url + `</a>`;
+                column.innerHTML += `<a href="` + websites[i][j].url + `" rel="nofollow" target="_blank">` + websites[i][j].name + `</a>`;
             }
             row.appendChild(column);
         }

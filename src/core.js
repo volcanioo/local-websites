@@ -47,8 +47,8 @@ export default {
         return newElement;
     },
     getWebsitesByCategory(to, from, category) {
-        const filteredTo = {...to.websites.filter((item) => item.category.toString().includes(category))};
-        const filteredFrom = {...from.websites.filter((item) => item.category.toString().includes(category))};
+        const filteredTo = {...to.websites.filter((item) => item.category.includes(category))};
+        const filteredFrom = {...from.websites.filter((item) => item.category.includes(category))};
         return [filteredTo, filteredFrom];
     }
 }

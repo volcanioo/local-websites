@@ -104,10 +104,6 @@
         "name": "Insurance"
     },
     {
-        "id": 28,
-        "name": "Hosting"
-    },
-    {
         "id": 29,
         "name": "Scholarship"
     },
@@ -133,6 +129,6 @@
     },
     {
         "id": 35,
-        "name": "Flight Ticket"
+        "name": "Flight & Airlines"
     }
 ]

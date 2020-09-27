@@ -59,5 +59,14 @@ p {
     &:last-child {
       border: none;
     }
+    a {
+      color: var(--blue);
+      display: block;
+      font-size: var(--bodySize);
+      line-height: 24px;
+      &:after {
+        content: attr('data-url-icon');
+      }
+  }
   }
 }

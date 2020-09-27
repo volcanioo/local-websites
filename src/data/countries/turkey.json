@@ -9,7 +9,7 @@
         {
             "name": "Sahibinden Evcil Hayvanlar",
             "url": "http://www.sahibinden.com/kategori/hayvanlar-alemi-evcil-hayvanlar",
-            "category": 16
+            "category": [16]
         },
         {
             "name": "Hepsiburada",
@@ -29,47 +29,47 @@
         {
             "name": "Yemek Sepeti",
             "url": "http://yemeksepeti.com/",
-            "category": 1
+            "category": [1]
         },
         {
             "name": "Trendyol",
             "url": "http://trendyol.com/",
-            "category": 2
+            "category": [2]
         },
         {
             "name": "Getir",
             "url": "http://getir.com/",
-            "category": 6
+            "category": [6]
         },
         {
             "name": "BanaBi",
             "url": "http://www.yemeksepetibanabi.com/",
-            "category": 6
+            "category": [6]
         },
         {
             "name": "İste Gelsin",
             "url": "http://www.istegelsin.com/",
-            "category": 6
+            "category": [6]
         },
         {
             "name": "Migros Sanal Market",
             "url": "http://migros.com.tr/",
-            "category": 6
+            "category": [6]
         },
         {
             "name": "Mynet",
             "url": "http://mynet.com/",
-            "category": 7
+            "category": [7]
         },
         {
             "name": "TRT World",
             "url": "http://trtworld.com/",
-            "category": 8
+            "category": [8]
         },
         {
             "name": "Haberler",
             "url": "http://haberler.com/",
-            "category": 7
+            "category": [7]
         },
         {
             "name": "Shift Delete",
@@ -79,67 +79,67 @@
         {
             "name": "Onedio",
             "url": "http://onedio.com/",
-            "category": 12
+            "category": [12]
         },
         {
             "name": "Ekşi Sözlük",
             "url": "http://eksisozluk.com/",
-            "category": 10
+            "category": [10]
         },
         {
             "name": "İnci Sözlük",
             "url": "http://incisozluk.com/",
-            "category": 10
+            "category": [10]
         },
         {
             "name": "Uludağ Sözlük",
             "url": "http://uludagsozluk.com/",
-            "category": 10
+            "category": [10]
         },
         {
             "name": "Kızlar Soruyor",
             "url": "http://kizlarsoruyor.com/",
-            "category": 10
+            "category": [10]
         },
         {
             "name": "D&R",
             "url": "http://dr.com.tr/",
-            "category": 11
+            "category": [11]
         },
         {
             "name": "Kitap Yurdu",
             "url": "http://kitapyurdu.com/",
-            "category": 11
+            "category": [11]
         },
         {
             "name": "İdefix",
             "url": "http://idefix.com/",
-            "category": 11
+            "category": [11]
         },
         {
             "name": "Sporx",
             "url": "http://sporx.com",
-            "category": 14
+            "category": [14]
         },
         {
             "name": "Yemek",
             "url": "http://yemek.com/",
-            "category": 13
+            "category": [13]
         },
         {
             "name": "E-Devlet",
             "url": "http://turkiye.gov.tr/",
-            "category": 32
+            "category": [32]
         },
         {
             "name": "Webrazzi",
             "url": "http://webrazzi.com/",
-            "category": 9
+            "category": [9]
         },
         {
             "name": "Donanım Haber",
             "url": "http://donanimhaber.com/",
-            "category": 9
+            "category": [9]
         },
         {
             "name": "WebTekno",
@@ -149,7 +149,7 @@
         {
             "name": "Sinemalar",
             "url": "http://sinemalar.com/",
-            "category": 15
+            "category": [15]
         },
         {
             "name": "Hürriyet Emlak",
@@ -174,52 +174,52 @@
         {
             "name": "Tureng",
             "url": "http://tureng.com/",
-            "category": 18
+            "category": [18]
         },
         {
             "name": "Teknosa",
             "url": "http://teknosa.com/",
-            "category": 22
+            "category": [22]
         },
         {
             "name": "Vatan Bilgisayar",
             "url": "http://vatanbilgisayar.com/",
-            "category": 22
+            "category": [22]
         },
         {
             "name": "Eleman.net",
             "url": "http://eleman.net/",
-            "category": 21
+            "category": [21]
         },
         {
             "name": "Kariyet.net",
             "url": "http://kariyer.net/",
-            "category": 21
+            "category": [21]
         },
         {
             "name": "Secret CV",
             "url": "http://secretcv.com/",
-            "category": 21
+            "category": [21]
         },
         {
             "name": "Doktor Sitesi",
             "url": "http://doktorsitesi.com/",
-            "category": 20
+            "category": [20]
         },
         {
             "name": "İlaç Rehberi",
             "url": "http://ilacrehberi.com/",
-            "category": 23
+            "category": [23]
         },
         {
             "name": "Lidyana",
             "url": "http://lidyana.com/",
-            "category": 2
+            "category": [2]
         },
         {
             "name": "Merkezi Randevu Hekim Sistemi",
             "url": "https://www.mhrs.gov.tr/Vatandas/",
-            "category": 25
+            "category": [25]
         },
         {
             "name": "Letgo",
@@ -229,67 +229,72 @@
         {
             "name": "Sigortam.net",
             "url": "http://sigortam.net/",
-            "category": 27
+            "category": [27]
         },
         {
             "name": "E-Bursum",
             "url": "http://ebursum.com/",
-            "category": 29
+            "category": [29]
         },
         {
             "name": "Kurs.com",
             "url": "http://kurs.com/",
-            "category": 30
+            "category": [30]
         },
         {
             "name": "PTT",
             "url": "http://ptt.gov.tr/",
-            "category": 31
+            "category": [31]
         },
         {
             "name": "Yurtiçi Kargo",
             "url": "http://yurticikargo.com/",
-            "category": 31
+            "category": [31]
         },
         {
             "name": "MNG Kargo",
             "url": "http://mngkargo.com.tr/",
-            "category": 31
+            "category": [31]
         },
         {
             "name": "Biletix",
             "url": "http://biletix.com/",
-            "category": 34
+            "category": [34]
         },
         {
             "name": "Grupanya",
             "url": "http://grupanya.com/",
-            "category": 34
+            "category": [34]
         },
         {
             "name": "Fırsat Bu Fırsat",
             "url": "http://firsatbufirsat.com/",
-            "category": 34
+            "category": [34]
         },
         {
             "name": "Türk Hava Yolları",
             "url": "http://turkishairlines.com/",
-            "category": 35
+            "category": [35]
         },
         {
             "name": "Pegasus",
             "url": "http://flypgs.com/",
-            "category": 35
+            "category": [35]
         },
         {
             "name": "Anadolu Jet",
             "url": "http://anadolujet.com/",
-            "category": 35
+            "category": [35]
         },
         {
             "name": "Sun Express",
             "url": "http://sunexpress.com/",
-            "category": 35
+            "category": [35]
+        },
+        {
+            "name": "E-Fidancim",
+            "url": "https://www.e-fidancim.com/",
+            "category": [24]
         }
     ]
 }
