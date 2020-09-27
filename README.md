@@ -9,6 +9,8 @@ We are living in different countries with different languages, but around the wo
 
 The local website database will help you to find specific websites for your country.
 
+![Demo](demo.gif)
+
 Do you want to add your country? Let's check [How can I add another country](#how-can-I-add-another-country)!
 
 # Project Set-up
