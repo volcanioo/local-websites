@@ -22,6 +22,7 @@ export default {
         for (let i = 0; i < selects.length; i++) {
             for (let j = 0; j < Object.keys(object).length; j++) {
                 const option = document.createElement("option");
+                option.value = Object.values(object)[j]['country_name'].toLowerCase();
                 option.text = Object.values(object)[j][property];
                 selects[i].add(option);
             }
@@ -46,9 +47,32 @@ export default {
         parentElement.appendChild(newElement);
         return newElement;
     },
-    getWebsitesByCategory(to, from, category) {
+    getWebsitesJSONByCategory(to, from, category) {
         const filteredTo = {...to.websites.filter((item) => item.category.includes(category))};
         const filteredFrom = {...from.websites.filter((item) => item.category.includes(category))};
         return [filteredTo, filteredFrom];
+    },
+    getListOfWebsites(categories, from, to) {
+        document.querySelector('[data-modal=website-list]').innerHTML = "";
+        for (const key in categories) {
+            if (categories.hasOwnProperty(key)) {
+                const websites = this.getWebsitesJSONByCategory(from, to, categories[key].id);
+                const categoryTitle = document.createElement('strong');
+                categoryTitle.classList.add('category-title');
+                categoryTitle.innerHTML = `<span>Category/</span>` + categories[key].name;
+                this.createAnElement('website-list', categoryTitle, 'div');
+                const row = document.createElement('div');
+                row.classList.add('table-view__row');
+                for (let i = 0; i < websites.length; i++) {
+                    const column = document.createElement('div');
+                    column.classList.add('table-view__column');
+                    for (let j = 0; j < Object.keys(websites[i]).length; j++) {
+                        column.innerHTML += `<a href="` + websites[i][j].url + `" rel="nofollow" target="_blank">` + websites[i][j].name + `</a>`;
+                    }
+                    row.appendChild(column);
+                }
+                document.querySelector('[data-modal="website-list"]').appendChild(row);
+            }
+        }
     }
 }

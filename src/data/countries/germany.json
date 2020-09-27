@@ -70,6 +70,36 @@
             "name": "Homeday",
             "url": "http://homeday.de",
             "category": [33]
+        },
+        {
+            "name": "TRT Deutsch",
+            "url": "http://trtdeutsch.de",
+            "category": [7]
+        },
+        {
+            "name": "jameda.de",
+            "url": "https://www.jameda.de/",
+            "category": [20]
+        },
+        {
+            "name": "StepStone",
+            "url": "https://www.stepstone.de/",
+            "category": [21]
+        },
+        {
+            "name": "CHEFKOCH",
+            "url": "https://www.chefkoch.de/",
+            "category": [13]
+        },
+        {
+            "name": "Bento",
+            "url": "https://www.bento.de/",
+            "category": [12]
+        },
+        {
+            "name": "Baldur Garten",
+            "url": "https://www.baldur-garten.de/",
+            "category": [24]
         }
     ]
 }

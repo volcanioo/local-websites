@@ -11,23 +11,21 @@ const app = document.querySelector('app');
 dom.setElement('total-country-count', Object.keys(countries).length);
 dom.setSelect('all-cities', countries, 'country_name');
 
-for (const key in categories) {
-    if (categories.hasOwnProperty(key)) {
-        const websites = dom.getWebsitesByCategory(countries['turkey'], countries['germany'], categories[key].id);
-        const categoryTitle = document.createElement('strong');
-        categoryTitle.classList.add('category-title');
-        categoryTitle.innerHTML = categories[key].name;
-        dom.createAnElement('website-list', categoryTitle, 'div');
-        const row = document.createElement('div');
-        row.classList.add('table-view__row');
-        for (let i = 0; i < websites.length; i++) {
-            const column = document.createElement('div');
-            column.classList.add('table-view__column');
-            for (let j = 0; j < Object.keys(websites[i]).length; j++) {
-                column.innerHTML += `<a href="` + websites[i][j].url + `" rel="nofollow" target="_blank">` + websites[i][j].name + `</a>`;
+// List
+const elements = [document.getElementById('from'), document.getElementById('to')];
+
+for (const i in elements) {
+    if (elements.hasOwnProperty(i)) {
+        const element = elements[i];
+        element.addEventListener('change', function (el) {
+            const from = elements[0].options[elements[0].options.selectedIndex].value;
+            const to = elements[1].options[elements[1].options.selectedIndex].value;
+            if (from !== "-1" && to !== "-1") {
+                document.querySelector('.is-list-open').classList.add('yes');
+                dom.getListOfWebsites(categories, countries[from], countries[to]);
+                dom.setElement('from', from);
+                dom.setElement('to', to);
             }
-            row.appendChild(column);
-        }
-        document.querySelector('[data-modal="website-list"]').appendChild(row);
+        })
     }
 }
