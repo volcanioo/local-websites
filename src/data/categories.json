@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Food"
+        "name": "Order Food"
     },
     {
         "id": 2,
@@ -17,6 +17,110 @@
     },
     {
         "id": 5,
-        "name": "Electronic"
+        "name": "E-commerce"
+    },
+    {
+        "id": 6,
+        "name": "Grocery Shopping"
+    },
+    {
+        "id": 7,
+        "name": "News (Local)"
+    },
+    {
+        "id": 8,
+        "name": "News (English)"
+    },
+    {
+        "id": 9,
+        "name": "Technology Blog"
+    },
+    {
+        "id": 10,
+        "name": "Discussion Website (Collaborative Hypertext Dictionary)"
+    },
+    {
+        "id": 11,
+        "name": "Book Store"
+    },
+    {
+        "id": 12,
+        "name": "Daily Blog"
+    },
+    {
+        "id": 13,
+        "name": "Recipe"
+    },
+    {
+        "id": 14,
+        "name": "Sport News"
+    },
+    {
+        "id": 15,
+        "name": "Cinema Blog"
+    },
+    {
+        "id": 16,
+        "name": "Pets"
+    },
+    {
+        "id": 17,
+        "name": "Gaming Blog"
+    },
+    {
+        "id": 18,
+        "name": "Dictionary"
+    },
+    {
+        "id": 19,
+        "name": "Bet Websites"
+    },
+    {
+        "id": 20,
+        "name": "Find a Doctor"
+    },
+    {
+        "id": 21,
+        "name": "Find a Job"
+    },
+    {
+        "id": 22,
+        "name": "Electronic Store"
+    },
+    {
+        "id": 23,
+        "name": "Health"
+    },
+    {
+        "id": 24,
+        "name": "Farming & Plant, seed"
+    },
+    {
+        "id": 25,
+        "name": "Hospital Appointment"
+    },
+    {
+        "id": 26,
+        "name": "Yard Sale (Sell second-hand items)"
+    },
+    {
+        "id": 27,
+        "name": "Insurance"
+    },
+    {
+        "id": 28,
+        "name": "Hosting"
+    },
+    {
+        "id": 29,
+        "name": "Scholarship"
+    },
+    {
+        "id": 30,
+        "name": "Find a Course"
+    },
+    {
+        "id": 31,
+        "name": "Shipment, Cargo"
     }
 ]
