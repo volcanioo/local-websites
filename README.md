@@ -11,6 +11,14 @@ The local website database will help you to find specific websites for your coun
 
 ![Demo](demo.gif)
 
+
+# The local website database
+We currently support 3 different countries;
+
+* Turkey `100%`
+* Germany `80%`
+* Brasil `80%`
+
 Do you want to add your country? Let's check [How can I add another country](#how-can-I-add-another-country)!
 
 # Project Set-up
