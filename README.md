@@ -12,12 +12,14 @@ The local website database will help you to find specific websites for your coun
 ![Demo](demo.gif)
 
 
-# The local website database
+# What We Have
 We currently support 3 different countries;
 
 * Turkey `100%`
 * Germany `35%`
 * Brasil `50%`
+
+> We still need more Germany and Brasil websites! If you need more detail about the list/categories let me know!
 
 Do you want to add your country? Let's check [How can I add another country](#how-can-I-add-another-country)!
 
