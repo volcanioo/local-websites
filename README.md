@@ -11,6 +11,10 @@ The local website database will help you to find specific websites for your coun
 
 ![Demo](demo.gif)
 
+If you want to better understanding structural logic, those PRs would be helpful;
+1. [First Set-up](https://github.com/volcanioo/local-websites/pull/1)
+2. [Data Structure Updates](https://github.com/volcanioo/local-websites/pull/2)
+3. [Modal Management](https://github.com/volcanioo/local-websites/pull/4)
 
 # What We Have
 We currently support 3 different countries;
@@ -40,8 +44,3 @@ npm start
 3. Add an import in `countries.js` file.
 4. Test it locally
 5. Create a PR then you are pretty set! 🎉  
-
-# What I did until this time?
-1. [First Set-up](https://github.com/volcanioo/local-websites/pull/1)
-2. [Data Structure Updates](https://github.com/volcanioo/local-websites/pull/2)
-3. [Modal Management](https://github.com/volcanioo/local-websites/pull/4)
