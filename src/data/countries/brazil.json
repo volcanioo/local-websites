@@ -1,0 +1,155 @@
+{
+    "country_name": "Brazil",
+    "websites": [
+      {
+          "id": 1,
+          "name": "iFood",
+          "url": "https://www.ifood.com.br/",
+          "category": [1]
+      },
+      {
+          "id": 2,
+          "name": "Rappi",
+          "url": "https://www.rappi.com.br/",
+          "category": [1]
+      },
+      {
+          "id": 3,
+          "name": "Uber Eats",
+          "url": "https://www.ubereats.com/br/",
+          "category": [1]
+      },
+      {
+          "id": 4,
+          "name": "Privalia",
+          "url": "https://br.privalia.com/public/",
+          "category": [2]
+      },
+      {
+          "id": 5,
+          "name": "NetShoes",
+          "url": "https://www.netshoes.com.br/",
+          "category": [2]
+      },
+      {
+          "id": 6,
+          "name": "Dafiti",
+          "url": "https://www.dafiti.com.br/",
+          "category": [2]
+      },
+      {
+          "id": 7,
+          "name": "Farfetch",
+          "url": "https://www.farfetch.com/br/",
+          "category": [2]
+      },
+      {
+          "id": 8,
+          "name": "Zattini",
+          "url": "https://www.zattini.com.br/",
+          "category": [2]
+      },
+      {
+          "id": 9,
+          "name": "Kanui",
+          "url": "https://www.kanui.com.br/",
+          "category": [2]
+      },
+      {
+          "id": 10,
+          "name": "C&A",
+          "url": "https://www.cea.com.br/",
+          "category": [2]
+      },
+      {
+          "id": 11,
+          "name": "Lojas Renner",
+          "url": "https://www.lojasrenner.com.br/",
+          "category": [2]
+      },
+      {
+          "id": 12,
+          "name": "Zara",
+          "url": "https://www.zara.com/br/",
+          "category": [2]
+      },
+      {
+          "id": 13,
+          "name": "WebMotors",
+          "url": "https://www.webmotors.com.br/",
+          "category": [3]
+      },
+      {
+          "id": 14,
+          "name": "iCarros",
+          "url": "https://www.icarros.com.br/",
+          "category": [3]
+      },
+      {
+          "id": 15,
+          "name": "OLX Carros",
+          "url": "https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios",
+          "category": [3]
+      },
+      {
+          "id": 16,
+          "name": "MercadoLivre Veículos",
+          "url": "https://www.mercadolivre.com.br/veiculos",
+          "category": [3]
+      },
+      {
+          "id": 17,
+          "name": "G1",
+          "url": "http://g1.com.br/",
+          "category": [7]
+      },
+      {
+          "id": 18,
+          "name": "R7",
+          "url": "https://www.r7.com/",
+          "category": [7]
+      },
+      {
+          "id": 19,
+          "name": "Terra",
+          "url": "http://terra.com.br/",
+          "category": [7]
+      },
+      {
+          "id": 20,
+          "name": "Uol",
+          "url": "http://uol.com.br/",
+          "category": [7]
+      },
+      {
+          "id": 21,
+          "name": "Gizmodo Brasil",
+          "url": "https://gizmodo.uol.com.br/",
+          "category": [9]
+      },
+      {
+          "id": 22,
+          "name": "TechTudo",
+          "url": "https://www.techtudo.com.br/",
+          "category": [9]
+      },
+      {
+          "id": 23,
+          "name": "Globo Esporte",
+          "url": "https://globoesporte.globo.com/",
+          "category": [14]
+      },
+      {
+          "id": 24,
+          "name": "Lance",
+          "url": "https://www.lance.com.br/",
+          "category": [14]
+      },
+      {
+          "id": 25,
+          "name": "Super Esportes",
+          "url": "https://www.mg.superesportes.com.br/",
+          "category": [14]
+      }
+    ]
+}
