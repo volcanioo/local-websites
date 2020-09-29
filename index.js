@@ -1,1 +1,0 @@
-window.location.href = "https://volcanioo.github.io/local-websites/dist/index.html";
