@@ -9,7 +9,7 @@ We are living in different countries with different languages, but around the wo
 
 The local website database will help you to find specific websites for your country.
 
-![Demo](demo.gif)
+![Demo](demo.png)
 
 If you want to better understanding structural logic, those PRs would be helpful;
 1. [First Set-up](https://github.com/volcanioo/local-websites/pull/1)
