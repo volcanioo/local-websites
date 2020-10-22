@@ -39,7 +39,7 @@ npm start
 ```
 
 # How can I add another country?
-1. Create a new branch
+1. Create a new branch from `develop` branch
 2. Create a JSON file in `data/countries/` directory. (You can find a dummy json in this directory, you can copy it!)
 3. Add an import in `countries.js` file.
 4. Test it locally

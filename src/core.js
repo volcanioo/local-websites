@@ -47,11 +47,23 @@ export default {
         parentElement.appendChild(newElement);
         return newElement;
     },
+    /**
+     * This function returns filtered countries list (as JSON) by category
+     * @param to
+     * @param from 
+     * @param category 
+    **/
     getWebsitesJSONByCategory(to, from, category) {
         const filteredTo = {...to.websites.filter((item) => item.category.includes(category))};
         const filteredFrom = {...from.websites.filter((item) => item.category.includes(category))};
         return [filteredTo, filteredFrom];
     },
+    /**
+     * This function creates html of result's table
+     * @param categories
+     * @param from 
+     * @param to 
+    **/
     getListOfWebsites(categories, from, to) {
         document.querySelector('[data-modal=website-list]').innerHTML = "";
         for (const key in categories) {
@@ -59,7 +71,7 @@ export default {
                 const websites = this.getWebsitesJSONByCategory(from, to, categories[key].id);
                 const categoryTitle = document.createElement('strong');
                 categoryTitle.classList.add('category-title');
-                categoryTitle.innerHTML = `<span>Category/</span>` + categories[key].name;
+                categoryTitle.innerHTML = categories[key].name;
                 this.createAnElement('website-list', categoryTitle, 'div');
                 const row = document.createElement('div');
                 row.classList.add('table-view__row');
@@ -73,6 +85,31 @@ export default {
                 }
                 document.querySelector('[data-modal="website-list"]').appendChild(row);
             }
+        }
+    },
+    /**
+     * This function print the result on the screen
+     * @param categories
+     * @param countries 
+    **/
+    getTableOfResults(categories, countries) {
+        const elements = [document.getElementById('from'), document.getElementById('to')];
+        const from = elements[0].options[elements[0].options.selectedIndex].value;
+        const to = elements[1].options[elements[1].options.selectedIndex].value;
+        const form = document.querySelector('.form');
+        form.classList.remove('form--error');
+
+        if (from !== "-1" && to !== "-1") {
+            document.querySelector('.is-list-open').classList.add('opened');
+            this.getListOfWebsites(categories, countries[from], countries[to]);
+            this.setElement('from', from);
+            this.setElement('to', to);
+            // document.querySelector('.earth').classList.add('position');
+            // setTimeout(function() {
+            //     document.querySelector('.earth').classList.add('position-2');
+            // }, 1000)
+        } else {
+            form.classList.add('form--error');
         }
     }
 }

@@ -4,46 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Local Website Database</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico" />
 </head>
 <body>
     <div class="container">
         <h1>Welcome to local website database!</h1>
         <p>Are you moving to a new country, or you already did it and looking for local websites? Every country has a couple of local websites to find an apartment, order food, sell/buy something. The local website database will help you to find specific websites for your country. </p>
-        <hr /> 
         <div class="app">
             <h2>Select Countries</h2>
-            <form class="form">
-                <div class="form__select">
-                    <label for="from">Where are you from?</label>
-                    <div class="select">
-                        <select 
-                            name="from" 
-                            id="from"
-                            data-modal="all-cities"
-                        >
-                            <option value="-1">Select a Country</option>
-                        </select>
+            <form 
+                class="form" 
+                action="javascript:void(0)"
+                data-error-message="(*) You must select 2 countries."
+            >
+                <div class="form__input">
+                    <div class="form__select">
+                        <div class="select">
+                            <select 
+                                name="from" 
+                                id="from"
+                                data-modal="all-cities"
+                            >
+                                <option value="-1">Select a Country</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form__select">
+                        <div class="select">
+                            <select 
+                                name="to" 
+                                id="to" 
+                                data-modal="all-cities"
+                            >
+                                <option value="-1">Select a Country</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
-                <div class="form__select">
-                    <label for="to">Which country are you in?</label>
-                    <div class="select">
-                        <select 
-                            name="to" 
-                            id="to" 
-                            data-modal="all-cities"
-                        >
-                            <option value="-1">Select a Country</option>
-                        </select>
-                    </div>
-                </div>
+                <button 
+                    type="submit"
+                    class="form__button"
+                    id="form__button"
+                >Find It</button>
             </form>
-            <hr />
-            <h2 class="is-list-open">List of Websites: <span data-modal="from"></span> / <span data-modal="to"></span></h2>
+            <!-- <p>Didn't find your country?! 😱 <a target="_blank" href="https://github.com/volcanioo/local-websites#how-can-i-add-another-country">Let's contribute for your country!</a></p> -->
+            <h2 class="is-list-open"><span data-modal="from"></span> / <span data-modal="to"></span></h2>
             <div data-modal="website-list"></div>
         </div>
+    </div>
+    <div class="animation">
+        <div class="earth">
+            <div class="spin-animation">
+                <img src="./images/earth.svg" alt="image">
+            </div>
+        </div>
+        <div class="bottom-shadow"></div>
     </div>
     <script src="./bundle.js"></script>
 </body>
