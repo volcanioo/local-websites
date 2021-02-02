@@ -44,3 +44,6 @@ npm start
 3. Add an import in `countries.js` file.
 4. Test it locally
 5. Create a PR then you are pretty set! 🎉  
+
+# Licence
+[MIT](https://github.com/volcanioo/local-websites/blob/master/LICENSE)
