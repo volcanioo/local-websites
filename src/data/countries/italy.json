@@ -1,0 +1,77 @@
+{
+    "country_name": "Italy",
+    "websites": [
+        {
+            "id": 1,
+            "name": "Deliveroo",
+            "url": "https://deliveroo.it/it/",
+            "category": [1]
+        },
+        {
+            "id": 2,
+            "name": "Just Eat",
+            "url": "https://www.justeat.it/",
+            "category": [1]
+        },
+        {
+            "id": 3,
+            "name": "Uber Eats",
+            "url": "https://www.ubereats.com/it",
+            "category": [1]
+        },
+        {
+            "id": 4,
+            "name": "Glovo",
+            "url": "https://glovoapp.com/it",
+            "category": [1, 6]
+        },
+        {
+            "id": 5,
+            "name": "La Repubblica",
+            "url": "https://repubblica.it/",
+            "category": [7]
+        },
+        {
+            "id": 6,
+            "name": "Il Corriere della Sera",
+            "url": "https://www.corriere.it/",
+            "category": [7]
+        },
+        {
+            "id": 7,
+            "name": "Il Fatto Quotidiano",
+            "url": "https://www.ilfattoquotidiano.it/",
+            "category": [7]
+        },
+        {
+            "id": 8,
+            "name": "The Local",
+            "url": "https://www.thelocal.it/",
+            "category": [8]
+        },
+        {
+            "id": 9,
+            "name": "ANSA, English Edition",
+            "url": "https://www.ansa.it/english/",
+            "category": [8]
+        },
+        {
+            "id": 10,
+            "name": "La Feltrinelli",
+            "url": "https://www.lafeltrinelli.it/",
+            "category": [11]
+        },
+        {
+            "id": 11,
+            "name": "Giallo Zafferano",
+            "url": "https://www.giallozafferano.it/",
+            "category": [13]
+        },
+        {
+            "id": 12,
+            "name": "Subito.it",
+            "url": "https://subito.it/",
+            "category": [4, 26]
+        }
+    ]
+}
